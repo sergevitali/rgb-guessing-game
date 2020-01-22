@@ -51,7 +51,6 @@ function randomColorHandler(){
         var random=Math.floor(Math.random() * 256);
         randomColor.push(random);
     }
-    console.log(randomColor);
     return randomColor;
 }
 
