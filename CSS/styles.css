@@ -1,97 +1,96 @@
-body, div{
+body, div {
     padding:0;
     margin:0;
     font-family: 'Righteous', cursive;
-
 }
-body{
+body {
     background-color: #272727;
 }
-#main-title{
+#main-title {
     padding:30px 0;
     text-align: center;
 }
 
-#main-title p{
+#main-title p {
     color:#f2eee5;
     font-size:1.6rem;
     margin-top:0;
     margin-bottom:0;
 }
-.rgbColorFont{
+.rgbColorFont {
     font-size:2rem;
 }
-#selection-div{
+#selection-div {
     color: #31a5a1;
     background-color: #f2eee5;
     text-align: center;
     padding:0 25%;
 }
-#flex-div{
+#flex-div {
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     background-color: #f2eee5;
     align-items: center;
 }
-#start-button{
+#start-button {
     padding:5px;
     color:#9e3737;
 }
-#hardness{
+#hardness {
     display:flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.buttons{
+.buttons {
     padding:5px;
     margin-left:5px;
 }
-.buttonsActive{
+.buttonsActive {
     background-color: #357376;
     color:#f2eee5;
 }
-.buttons:hover, #start-button:hover{
+.buttons:hover, #start-button:hover {
     cursor:pointer;
     background-color: #357376;
     color:#f2eee5;
     transition: all 0.3s ease-out;
 }
-#start-button:hover{
+#start-button:hover {
     background-color: #9e3737;
 }
-.squares{
+.squares {
     border-radius:2%;
     width:180px;
     height:180px;
     margin:10px;
 }
-.squareFadeOut{
+.squareFadeOut {
     opacity:0;
     transition: all 0.3s ease-out;
 }  
 
-#squares-div{
+#squares-div {
     background-color: #272727;
     padding-top:20px;
 }
-#squares-div div{
+#squares-div div {
     display:flex;
     flex-direction: row;
     justify-content: center;
 }
-@media (max-width:600px){
-    .squares{
+@media (max-width:600px) {
+    .squares {
         width:150px;
         height:150px;
     }
-    #selection-div{
+    #selection-div {
         padding:0 5%;
     }
     
 }
-@media (max-width:500px){
-    .squares{
+@media (max-width:500px) {
+    .squares {
         width:100px;
         height:140px;
     }
